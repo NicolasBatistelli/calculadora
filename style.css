@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4em;
+}
+
+.calculadora {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #pantalla {
+    width: 94%;
+    padding: 10px;
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: right;
+  }
+
+  input[type="button"] {
+    width: 140px;
+    height: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="button"]:last-child {
+    margin-right: 0;
+  }
